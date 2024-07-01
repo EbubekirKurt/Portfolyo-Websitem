@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ebubekir Kurt Portfolyo</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+</head>
+<body>
+<section>
+    <!-- MOBILE NAVIGATION -->
+    <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+    </div>
+    <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESUME</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+    </div>
+
+    <!-- SOCIAL SECTION -->
+    <section class="image-section w3-quarter w3-fixed w3-padding-small">
+      <!--IMAGE/AVATAR-->
+      <img src="resim.jpeg" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+      <!--SOCIAL NETWORK BUTTONS-->
+      <div class="links w3-margin-top w3-padding-small">
+        <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://instagram.com/ebubekirr.kurt/" target="_blank">
+          <i data-feather="instagram"></i>
+        </a>
+        <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://twitter.com/meuspexa1" target="_blank">
+          <i data-feather="twitter"></i>
+        </a>
+        <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/ebubekirkurt/" target="_blank">
+          <i data-feather="linkedin"></i>
+        </a>
+        <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://github.com/EbubekirKurt/" target="_blank">
+          <i data-feather="github"></i>
+        </a>
+      </div>
+      <!--CV DOWNLOAD BUTTON-->
+      <div class="w3-container w3-padding-16">
+        <a href="CV.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">
+          <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+          <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+        </a>
+      </div>
+    </section>
+
+
+    <!--CV CONTENT SECTION-->
+    <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+            <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">EBUBEKİR KURT</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+            <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+            <!--HOME SECTION-->
+            <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+                <p style="font-style: italic; font-size:x-large;">"The mind is the limit. When you face your struggles, you overcome them."</p>
+                <h1>Ebubekir Kurt (21)</h1>
+                <h2>Software Engineer</h2>
+                <p></p>
+            </div>
+
+            <!-- ABOUT SECTION -->
+            <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+              <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+              <p class="w3-margin-top-2">
+                I am an active volunteer in the Google Developer Student Clubs (GDSC). Through my involvement with GDSC, I have had the opportunity to:
+              </p>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>Organize and lead workshops and events to promote tech skills among students.</li>
+                <li>Collaborate with other students on various projects and hackathons.</li>
+                <li>Mentor and guide junior members in their learning journeys.</li>
+                <li>Participate in community outreach programs to raise awareness about technology.</li>
+              </ul>
+              <p>
+                My role in GDSC has allowed me to develop my leadership and teamwork skills, while also contributing to the tech community by sharing knowledge and resources.
+              </p>
+            </div>
+
+
+            <!--RESUME-->
+            <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+                <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+                <div class="w3-container w3-margin-top-2 w3-cursive">
+
+                    <!--EMPLOYMENT HISTORY SECTION-->
+                    <h3 class="w3-border-amber">MY EMPLOYMENT HISTORY</h3>
+                    <div class="">
+                        <h4>Software Developer at Aras Dijital</h4>
+                        <p>January 2024 - Present</p>
+                        <ul class="w3-ul" style="font-weight: 500;">
+                            <li>Developed and implemented inventory and troubleshooting infrastructure from scratch.</li>
+                            <li>Played a key role in the development of this project while continuing my university education for more than six months.</li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <h4>Assistant at Demirciler Tekstil</h4>
+                        <p>May 2015 - September 2019</p>
+                        <ul class="w3-ul" style="font-weight: 500;">
+                            <li>Worked up to 12 hours a day during summer and winter holidays, earning my own money during high school.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!---EDUCATION SECTION-->
+                <div class="w3-container w3-margin-top-2 w3-cursive">
+                    <h3 class="w3-border-amber">MY EDUCATION</h3>
+                    <h4>Beykoz University</h4>
+                    <p>2022 - 2026</p>
+                    <p>Software Engineering Department</p>
+                    <p>GPA: 3.05 / 4</p>
+                    <h4>Beykoz Anatolian High School</h4>
+                    <p>2017 - 2021</p>
+                    <p>OBP: 82/100</p>
+                </div>
+
+                <!--SKILLS SECTION-->
+                <div class="w3-container w3-margin-top-2 w3-cursive">
+                    <h3 class="w3-border-amber">MY SKILLS</h3>
+                    <!--SOFT SKILLS-->
+                    <h4>Soft skills</h4>
+                    <ul class="w3-ul" style="font-weight: 500;">
+                        <li>Excellent communication skills and confidence in front of an audience</li>
+                        <li>Talent for investigating and researching different processes to offer improvements and solutions for the benefit of the organization</li>
+                        <li>Provided engaging text, image, and video content for all social media and professional accounts</li>
+                    </ul>
+                    <h4>Technical Skills</h4>
+                    <ul class="w3-ul" style="font-weight: 500;">
+                      <li>C/C++</li>                      
+                      <li>Python</li>
+                      <li>Flutter/Dart</li>
+                      <li>Kotlin</li>
+                      <li>HTML5/CSS3</li>
+                      <li>JavaScript</li>                      
+                      <li>SQL</li>
+                      <li>Firebase</li>
+                      <li>MongoDB</li>
+                      <li>Git - GitHub</li>
+                      <li>Microsoft Office</li>                      
+                    </ul>
+                  </div>
+
+                <!--INTERESTS SECTION-->
+                  <div class="w3-container w3-margin-top-2 w3-cursive">
+                    <h3 class="w3-border-amber">MY HOBBIES AND INTERESTS</h3>
+                      <ul class="w3-ul" style="font-weight: 500;">
+                        <li>Playing football</li>
+                        <li>Playing basketball</li>
+                        <li>Playing volleyball</li>
+                        <li>Playing competitive video games</li>
+                        <li>Cooking</li>
+                        <li>Playing board games</li>
+                        <li>Spending time with friends</li>
+                      </ul>
+                  </div>
+            </div>
+
+            <!--CONTACT SECTION-->
+            <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+                <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h2>
+                <div class="w3-margin-top-2" style="font-weight: 500;">
+                    <p>Name: Ebubekir Kurt</p>
+                    <p>Phone number: +905415450058</p>
+                    <p>E-mail: ebubekirr.kurt3@gmail.com</p>
+                </div>
+            </div>
+
+            <!--FOOTER-->
+            <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+                <p>© 2024 - Ebubekir Kurt</p>
+            </footer>
+        </div>
+    </section>
+</section>
+<script>
+    // Function to toggle mobile navigation
+    function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+            nav.classList.remove('w3-show');
+        } else {
+            nav.classList.add('w3-show');
+        }
+    }
+</script>
+<script>
+    // Script to load feather icons
+    feather.replace()
+</script>
+</body>
+</html>
